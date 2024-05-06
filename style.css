@@ -54,11 +54,12 @@ body {
 /* ///////// HEADER /////////////// */
 header {
     display: flex;
-    /* position: sticky; */
+    position: sticky;
     top: 0;
     background-color: black;
     justify-content: space-between;
     padding: 10px;
+    z-index: 1;
 }
 
 header img {
